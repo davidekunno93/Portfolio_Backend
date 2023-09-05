@@ -17,3 +17,6 @@ from . import models
 # new directory for organization
 from .auth.routes import auth
 app.register_blueprint(auth)
+
+from .api.routes import api
+app.register_blueprint(api)
